@@ -4,7 +4,7 @@ i = 0
 
 result= []
   if collection == nil
-  break
+  
   elsif collection[0] = "Tim Jones"
     while  i < collection.length 
       item = collection[i]
