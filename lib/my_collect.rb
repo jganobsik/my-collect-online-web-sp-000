@@ -18,6 +18,7 @@ result= []
       item.upcase
       result << item
       i += 1
+    end
 end
 result
 end 
