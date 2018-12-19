@@ -3,7 +3,9 @@ def my_collect(collection)
 i = 0 
 
 result= []
-  if collection[0] = "Tim Jones"
+  if collection == nil
+  end
+  elsif collection[0] = "Tim Jones"
     while  i < collection.length 
       item = collection[i]
       yield(item)
